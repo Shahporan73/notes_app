@@ -1,7 +1,9 @@
-Notes App
+<h2>Notes App</h2>  
+
 A professional Flutter-based application designed for managing notes efficiently.
 
 Getting Started
+
 This project is a starting point for a feature-rich notes application. It allows users to create, manage, and organize notes with a sleek, user-friendly interface.
 
 Features:

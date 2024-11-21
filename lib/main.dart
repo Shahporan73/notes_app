@@ -6,12 +6,16 @@ import 'package:notes_app/note_view/view/home_screen.dart';
 import 'package:notes_app/res/appColors.dart';
 import 'package:path_provider/path_provider.dart';
 
+import 'note_view/models/color_adapter.dart';
+
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
   var directory= await getApplicationDocumentsDirectory();
   Hive.init(directory.path);
 
   Hive.registerAdapter(NotesModelAdapter());
+  Hive.registerAdapter(ColorAdapter());
+
   await Hive.openBox<NotesModel>('notes');
 
   runApp(const MyApp());

@@ -75,10 +75,6 @@ class _NoteViewScreenState extends State<NoteViewScreen> {
                 image: DecorationImage(
                   image: FileImage(File(_backgroundImagePath!)),
                   fit: BoxFit.cover,
-                    colorFilter: ColorFilter.mode(
-                      Colors.black.withOpacity(0.5),
-                      BlendMode.dstIn,
-                    )
                 ),
               ),
             ),

@@ -18,12 +18,6 @@ class NotesModel extends HiveObject{
   @HiveField(3)
   Color? backgroundColor;
 
-  @HiveField(4)
-  String? backgroundImagePath;
-
-
   NotesModel({required this.title, required this.description, this.createdAt,
-    this.backgroundColor,
-    this.backgroundImagePath
-  });
+    this.backgroundColor});
 }

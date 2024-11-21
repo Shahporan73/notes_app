@@ -1,12 +1,13 @@
-# notes_app
+Notes App
+A professional Flutter-based application designed for managing notes efficiently.
 
-A new Flutter project.
+Getting Started
+This project is a starting point for a feature-rich notes application. It allows users to create, manage, and organize notes with a sleek, user-friendly interface.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
+Features:
+Customizable note management
+Clean and modern UI design
+Resources to help you get started:
 
 ![Preview of the Project](assets/preview-1.jpg)
 ![Preview of the Project](assets/preview-2.jpg)

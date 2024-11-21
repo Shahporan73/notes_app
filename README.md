@@ -2,11 +2,11 @@
 
 A professional Flutter-based application designed for managing notes efficiently.
 
-Getting Started
+<h2>Getting Started</h2>  
 
 This project is a starting point for a feature-rich notes application. It allows users to create, manage, and organize notes with a sleek, user-friendly interface.
 
-Features:
+<h2>Features:</h2>  
 Customizable note management
 Clean and modern UI design
 Resources to help you get started:
